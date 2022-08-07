@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+

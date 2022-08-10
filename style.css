@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #header-list {
@@ -24,3 +25,39 @@ body {
     width: 350px;
 }
 
+.facts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    width: 1000;
+    text-align: center;
+
+}
+
+#doggo-facts {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    grid-area: 600px;
+
+}
+
+.inspirational-quote-container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}

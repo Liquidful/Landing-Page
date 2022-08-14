@@ -39,6 +39,16 @@ body {
     padding: 0;
 }
 
+img {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+    border-width: 5px;
+}
+
 #first-doggo {
     height: 400px;
     width: 650px;
@@ -69,14 +79,7 @@ ul {
     gap: 80px;
     list-style: none;
     border: 20px;
-}
-
-.facts-border {
-    border-style: solid;
-    border-radius: 20px;
-    height: 150px;
-    width: 150px;
-    color:#3882f6;
+    margin-right: 40px;
 }
 
 .doggo-facts-rectangles {
@@ -96,6 +99,7 @@ ul {
 
 .inspirational-quote-container {
     display: flex;
+    padding: 50px;
     height: 350px;
     flex-direction: column;
     justify-content: center;
@@ -121,6 +125,7 @@ button {
     border-style: dotted;
     border-color: #3882f6;
     border-radius: 10px;
+    color: rgb(56, 56, 56);
 }
 
 #popup {
@@ -133,5 +138,14 @@ button {
     background-color: #3882f6;
     width: 500px;
     margin: 20px;
+}
+
+#dramatic-text {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#less-dramatic-text {
+    padding: 20px;
 }
 

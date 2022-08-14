@@ -111,7 +111,27 @@ ul {
     color: #1F2937;
 }
 
-.button-container {
+footer {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
+
+button {
+    border-style: dotted;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+#popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+    background-color: #3882f6;
+    width: 500px;
+    margin: 20px;
+}
+
